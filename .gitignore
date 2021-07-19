@@ -1,3 +1,5 @@
 images/
+images2/
 *.jpg
 HAM10000_metadata
+logs/
