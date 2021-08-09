@@ -39,32 +39,32 @@ LeNet-like model:
 ResNet-50 (BEST):
 
     Architecture:
-            See more info at https://pytorch.org/vision/stable/_modules/torchvision/models/resnet.html
+        See more info at https://pytorch.org/vision/stable/_modules/torchvision/models/resnet.html
 
-            Layer (type:depth-idx)                 Output Shape              Param #
-            Conv2d: 2-1                            [64, 64, 112, 112]        (9,408)
-            BatchNorm2d: 2-2                       [64, 64, 112, 112]        (128)
-            ReLU: 2-3                              [64, 64, 112, 112]        --
-            MaxPool2d: 2-4                         [64, 64, 56, 56]          --
-            Sequential: 2-5                        [64, 256, 56, 56]         (215,808)
-            Sequential: 2-6                        [64, 512, 28, 28]         (1,219,584)
-            Sequential: 2-7                        [64, 1024, 14, 14]        7,098,368
-            Sequential: 2-8                        [64, 2048, 7, 7]          14,964,736
-            AdaptiveAvgPool2d: 2-9                 [64, 2048, 1, 1]          --
-            Sequential: 2-10                       [64, 7]                   14,343
+        Layer (type:depth-idx)                 Output Shape              Param #
+        Conv2d: 2-1                            [64, 64, 112, 112]        (9,408)
+        BatchNorm2d: 2-2                       [64, 64, 112, 112]        (128)
+        ReLU: 2-3                              [64, 64, 112, 112]        --
+        MaxPool2d: 2-4                         [64, 64, 56, 56]          --
+        Sequential: 2-5                        [64, 256, 56, 56]         (215,808)
+        Sequential: 2-6                        [64, 512, 28, 28]         (1,219,584)
+        Sequential: 2-7                        [64, 1024, 14, 14]        7,098,368
+        Sequential: 2-8                        [64, 2048, 7, 7]          14,964,736
+        AdaptiveAvgPool2d: 2-9                 [64, 2048, 1, 1]          --
+        Sequential: 2-10                       [64, 7]                   14,343
         
-        Hyperparameters:
-            pretrained = True
-            freeze = True
-            batch size = 64
-            optimizer = Adam
-            learning rate = 1e-5
-            dropout = 0.5
+    Hyperparameters:
+        pretrained = True
+        freeze = True
+        batch size = 64
+        optimizer = Adam
+        learning rate = 1e-5
+        dropout = 0.5
 
-        Parameters:
-            Found in Cancer-Detection-Capstone/models/ResNet.pth
+    Parameters:
+        Found in Cancer-Detection-Capstone/models/ResNet.pth
 
-        Performance Metrics:
-            validation accuracy: 74%
-            test accuracy: 76%
-            See more details in Cancer-Detection-Capstone/notebooks/modeling.ipynb
+    Performance Metrics:
+        validation accuracy: 74%
+        test accuracy: 76%
+        See more details in Cancer-Detection-Capstone/notebooks/modeling.ipynb
