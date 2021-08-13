@@ -2,7 +2,7 @@
 
 ## Summary
 
-Skin lesion classification for cancer detection using the HAM10000 data set and PyTorch. This includes both a simple LeNet-like architecture trained from scratch and a fine tuned ResNet-50.
+Skin lesion classification for cancer detection using the HAM10000 data set and PyTorch. This includes both a simple LeNet-like architecture trained from scratch and a fine tuned ResNet-50. The ResNet-50 model achieves an accuracy of 75%.
 
 ## Usage
 
